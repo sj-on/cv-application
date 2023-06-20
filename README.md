@@ -2,7 +2,9 @@
 
 A React app which allows users to create their own resume using a ready template and download it in a PDF format.
 
-[Live Demo](https://michalosman.github.io/cv-application/) :point_left:
+[Live Demo](https://sj-on.github.io/cv-application/)
+
+[Forked From](https://michalosman.github.io/cv-application/) :point_left:
 
 ## Getting started
 
