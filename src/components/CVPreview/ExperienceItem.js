@@ -13,11 +13,13 @@ const ExperienceItem = ({ experienceItem }) => {
 					<div>
 						{experienceItem.company}, {experienceItem.city}
 					</div>
-					<ul>
-						{experienceItem.role.split("\n").map((item, key) => {
-							return <li key={key}>{item}</li>;
-						})}
-					</ul>
+					{!!experienceItem.role && (
+						<ul>
+							{experienceItem.role.split("\n").map((item, key) => {
+								return <li key={key}>{item}</li>;
+							})}
+						</ul>
+					)}
 				</Subsection>
 			</Info>
 		</ExperienceItemWrapper>
