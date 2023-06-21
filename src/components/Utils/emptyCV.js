@@ -35,6 +35,15 @@ const exampleCV = {
 			achievements: "",
 		},
 	],
+	project: [
+		{
+			id: uuidv4(),
+			projectName: "",
+			brief: "",
+			stack: "",
+			demo: "",
+		},
+	],
 };
 
 export default exampleCV;
